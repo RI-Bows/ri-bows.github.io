@@ -32,7 +32,9 @@ Our website will allow RIO admins to add/edit their posted RIOs in a conceptuall
 ![](images/clubMockup.png)
 Our website will have a page that lists all RIOs and allows users to filter and search for RIOs, similar to above.
 
-## Team Contract
+## Team
+The team consists of Gerric Abe, Tyler Jordan Acasio, Charles Brown III, Ethan Chiu, and Kate Hamada
+
 Here is the link to our [team contract](https://docs.google.com/document/d/15l0wCt8EKYHtAWk8A6nEZsd7tPoo2wtClHtCA2XVC9Y/edit?usp=sharing).
 
 
