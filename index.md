@@ -37,4 +37,4 @@ The team consists of Gerric Abe, Tyler Jordan Acasio, Charles Brown III, Ethan C
 
 Here is the link to our [team contract](https://docs.google.com/document/d/15l0wCt8EKYHtAWk8A6nEZsd7tPoo2wtClHtCA2XVC9Y/edit?usp=sharing).
 
-
+Here is the link to our [Milestone 1 Project Board](https://github.com/orgs/RI-Bows/projects/2)
