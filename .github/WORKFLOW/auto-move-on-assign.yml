@@ -4,10 +4,6 @@ on:
   issues:
     types: [assigned]
 
-permissions:
-  issues: write
-  projects: write
-
 jobs:
   move-to-in-progress:
     runs-on: ubuntu-latest
@@ -15,10 +11,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-
       - name: Move to In Progress
         uses: kin/gh-action-move-issue-to-column@1.0
         with:
-          access-token: ${{ secrets.GITHUB_TOKEN }}
+          access-token: "#{{ secrets.GITHUB_TOKEN }}"
           project-name: "M1"
           target-column: "In Progress"
