@@ -1,3 +1,5 @@
+# RIBows
+
 ## Table of Contents
 - [Description](#description)
 - [Deployment](#deployment)
@@ -8,7 +10,7 @@
 - [Team](#team)
 
 ## Description
-RIBows is a web page built by UH students, for UH students to easily find and joi RIOs. When searching for a club, users can either browse through the most trendy RIOs, search for a specific club, or search based your hobbies and interests. 
+RIBows is a web page built by UH students, for UH students to easily find and joi RIOs. When searching for a club, users can either browse through the most trendy RIOs, search for a specific club, or search based on your hobbies and interests. 
 
 ### Goals
 The high-level goal of this project is to develop a website, called RIBows, that streamlines the process of discovering, searching for, and joining Registered Independent Organizations (RIOs) at the University of Hawaii at Manoa (UH). 
@@ -52,11 +54,10 @@ Our website will allow RIO admins to add/edit their posted RIOs in a conceptuall
 Our website will have a page that lists all RIOs and allows users to filter and search for RIOs, similar to above.
 
 ## Community Feedback
-We are interested in your experience using RIBows! If you would like, please take a couple of minutes to fill out the RIBows Feedback Form. It contains only five short questions and will help us understand how to improve the system.
+We are interested in your experience using RIBows! If you would like, please take a couple of minutes to fill out the [RIBows Feedback Form](FeedbackForm). It contains only five short questions and will help us understand how to improve the system.
 
 ## Developer Guide
 Not done
-
 
 ## Development History
 
