@@ -1,7 +1,7 @@
 # RIBows
 
 ## Table of Contents
-- [Description](#description)
+- [Overview](#overview)
 - [Deployment](#deployment)
 - [User Guide](#user-guide)
 - [Community Feedback](#community-feedback)
@@ -63,13 +63,11 @@ The goal of Milestone 1 was to create a set of HTML pages providing a mockup of 
 
 Milestone 1 was managed using [RIBows GitHub Project Board M1](https://github.com/orgs/RI-Bows/projects/2):
 
-Put screenshot of all issues done here
-![](images/addContact.png)
+![](images/M1.png)
 
 Milestone 2 is managed using [RIBows GitHub Project Board M2](https://github.com/orgs/RI-Bows/projects/6)
 
-Put screenshot of all issues to be done here
-![](images/addContact.png)
+![](images/M2.png)
 
 ## Team
 RIBows is designed and implemented by Gerric Abe, Tyler Jordan Acasio, Charles Brown III, Ethan Chiu, and [Kate Hamada](https://katehamada.github.io/)
