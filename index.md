@@ -2,15 +2,20 @@
 
 ## Table of Contents
 - [Overview](#overview)
+- [Admin Features](#admin-features)
 - [Deployment](#deployment)
 - [User Guide](#user-guide)
+- [Pages](#pages)
 - [Community Feedback](#community-feedback)
 - [Developer Guide](#developer-guide)
 - [Development History](#development-history)
 - [Team](#team)
 
 ## Overview
-RIBows is a web page built by UH students, for UH students to easily find and join Registered Independent Organizations, RIOs. When searching for an RIO, users can either browse through the most trendy RIO's, search for a specific RIO's, or search based on your hobbies and interests. In addition to that users will be able to bookmark an RIO that they are thinking of joining or looks interesting but doesn't want to commit to joining just yet. Users will also be able to fill out a form to join an RIO and RIO users will be able to edit their own RIO page information.
+RIBows is a website built by University of Hawaii at Manoa (UHM) students, for UHM students, to easily search for, discover, and join Registered Independent Organizations (RIOs). RIBows gives users the flexibility to browse trending RIOs or search for specific RIOs based on interests or keywords. If a user sees an RIO that interests them, they can use the bookmarking feature to save the RIO for easy future reference. Once a user finds an RIO they want to join, simply clicking the "apply" button allows them to send an application to the RIO admin.
+
+## Admin Features
+Via an admin account, RIO admins can edit their RIO, allowing them to customize its image, description, and more. 
 
 ## Deployment
 The RIBows application was deployed on Vercel through this [link](https://ri-bows.vercel.app/)
@@ -18,61 +23,59 @@ The RIBows application was deployed on Vercel through this [link](https://ri-bow
 ## User Guide
 This section provides a walkthrough of the RIBows user interface and its capabilities.
 
-### Landing Page
-The landing page is presented to users when they visit the top-level URL to the site.
+## Pages
+### Landing
+The landing page is presented to users when they visit the top-level URL of the site. This page explains basic usage of the website and displays currently trending RIOs.
 
 ![](images/landingPage.png)
 
-### Sign In / Sign UP Pages
-Where they are directed to sign up and make a profile or sign in if they already have an account.
+### Sign In / Sign Up
+Users can access the sign in page via the "Sign In" button on the navbar. There, the user has the option to either sign in or create a new account.
 
-![](images/signUp.png)
 ![](images/signIn.png)
 
-### User Tabs
-Once they're logged in then they can look at the clubs that they've bookmarked:
+On the sign up page, users are able to create their account and specify the types of RIOs they are interested in.
+
+![](images/signUp.png)
+
+### Bookmarked
+Logged in users can view RIOs they've bookmarked by pressing "Saved" on the navbar.
 
 ![](images/bookmarks.png)
 
-If they just started then they can look at the Search Tab where they can search for a specific club:
+### Search
+The "Search" page accessible from the navbar allows users to search for RIOs with keywords of their choice. Users also have the option to filter RIOs based on interests, date added, and more.
 
 ![](images/search.png) <!--- import image -->
 
-Or they can browse the Trending tab if they don't have a particular club in mind:
-
-![](images/trending.png) <!--- import image -->
-
-If the user is a club account then they will be able to edit their RIO page details.
+### Admin
+If the user signs in with an admin account, they will be able to edit their RIO's details from the admin page.
 
 ![](images/editRIO.png) <!--- import image -->
 
-If the user is logged in as an admin then they are able to add RIO's in addition to edit them:
-
-![](images/addRIO.png) 
-
 ## Community Feedback
-We are interested in your experience using RIBows! If you would like, please take a couple of minutes to fill out the [RIBows Feedback Form](FeedbackForm). It contains only five short questions and will help us understand how to improve the system.
+We are interested in your experience using RIBows! If you would like, please take a couple of minutes to fill out the [RIBows Feedback Form](FeedbackForm). It contains only five short questions and will help us understand how to improve the application.
 
 ## Developer Guide
-Not done
+WIP
 
 ## Development History
 
 ### Milestone 1: Mockup development
-The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system.
+The goal of Milestone 1 was to create a minimal set of mockup pages to provide a skeleton for the final website. The page designs are still ongoing and most functionality has not been implemented.
 
 Milestone 1 was managed using [RIBows GitHub Project Board M1](https://github.com/orgs/RI-Bows/projects/2):
 
 ![](images/M1.png)
 
 ### Milestone 2: Database implementation
-The goal of Milestone 2 was to finish up the mockup pages, connect the spreadsheet of RIO's to the database and begin to implement the data base where you can actually search for an RIO.
+The goal of Milestone 2 was to finish up the mockup pages, connect the spreadsheet of RIOs to the database, and begin to implement database functionalities.
 
 Milestone 2 is managed using [RIBows GitHub Project Board M2](https://github.com/orgs/RI-Bows/projects/6)
 
 ![](images/M2.png)
 
 ## Team
-RIBows is designed, implemented, and maintained by Gerric Abe, Tyler Jordan Acasio, Charles Brown III, Ethan Chiu, and [Kate Hamada](https://katehamada.github.io/)
+RIBows is designed, implemented, and maintained by UHM students [Gerric Abe](https://g3rr1c.github.io/), [Tyler Jordan Acasio](https://tjlacasio.github.io/), [Charles Brown III](https://cbxiii.github.io/), [Ethan Chiu](https://ethnchiu.github.io/), and [Kate Hamada](https://katehamada.github.io/)
 
-Here is the link to our [team contract](https://docs.google.com/document/d/15l0wCt8EKYHtAWk8A6nEZsd7tPoo2wtClHtCA2XVC9Y/edit?usp=sharing).
+Here is the link to our [team contract](https://docs.google.com/document/d/15l0wCt8EKYHtAWk8A6nEZsd7tPoo2wtClHtCA2XVC9Y/edit?usp=sharing), which outlines criteria we adhere to to effectively work together and develop this website.
