@@ -54,7 +54,7 @@ If the user signs in with an admin account, they will be able to add their RIO's
 ![](images/addRIO.png) <!--- import image -->
 
 ## Community Feedback
-We have also added a feedback page. If the user would like, they could take a couple of minutes to fill out the [RIBows Feedback Form](FeedbackForm). The form asks for the user's email address and a text area to include feedback/improvements for our app.
+We have also added a feedback page. If the user would like, they could take a couple of minutes to fill out the [RIBows Feedback Form](https://ri-bows.vercel.app/feedback). The form asks for the user's email address and a text area to include feedback/improvements for our app.
 
 ![](images/feedback.png)
 
