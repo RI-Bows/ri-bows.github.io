@@ -54,7 +54,9 @@ If the user signs in with an admin account, they will be able to add their RIO's
 ![](images/addRIO.png) <!--- import image -->
 
 ## Community Feedback
-We are interested in your experience using RIBows! If you would like, please take a couple of minutes to fill out the [RIBows Feedback Form](FeedbackForm). It contains only five short questions and will help us understand how to improve the application.
+We have also added a feedback page. If the user would like, they could take a couple of minutes to fill out the [RIBows Feedback Form](FeedbackForm). The form asks for the user's email address and a text area to include feedback/improvements for our app.
+
+![](images/feedback.png)
 
 ## Developer Guide
 WIP
