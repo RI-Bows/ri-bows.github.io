@@ -13,7 +13,7 @@
 RIBows is a web page built by UH students, for UH students to easily find and join Registered Independent Organizations, RIOs. When searching for an RIO, users can either browse through the most trendy RIO's, search for a specific RIO's, or search based on your hobbies and interests. In addition to that users will be able to bookmark an RIO that they are thinking of joining or looks interesting but doesn't want to commit to joining just yet. Users will also be able to fill out a form to join an RIO and RIO users will be able to edit their own RIO page information.
 
 ## Deployment
-Link to the deployed application [here](https://ri-bows.vercel.app/)
+The RIBows application was deployed on Vercel through this [link](https://ri-bows.vercel.app/)
 
 ## User Guide
 This section provides a walkthrough of the RIBows user interface and its capabilities.
@@ -65,11 +65,14 @@ Milestone 1 was managed using [RIBows GitHub Project Board M1](https://github.co
 
 ![](images/M1.png)
 
+### Milestone 2: Database implementation
+The goal of Milestone 2 was to finish up the mockup pages, connect the spreadsheet of RIO's to the database and begin to implement the data base where you can actually search for an RIO.
+
 Milestone 2 is managed using [RIBows GitHub Project Board M2](https://github.com/orgs/RI-Bows/projects/6)
 
 ![](images/M2.png)
 
 ## Team
-RIBows is designed and implemented by Gerric Abe, Tyler Jordan Acasio, Charles Brown III, Ethan Chiu, and [Kate Hamada](https://katehamada.github.io/)
+RIBows is designed, implemented, and maintained by Gerric Abe, Tyler Jordan Acasio, Charles Brown III, Ethan Chiu, and [Kate Hamada](https://katehamada.github.io/)
 
 Here is the link to our [team contract](https://docs.google.com/document/d/15l0wCt8EKYHtAWk8A6nEZsd7tPoo2wtClHtCA2XVC9Y/edit?usp=sharing).
