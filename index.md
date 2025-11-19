@@ -49,9 +49,9 @@ The "Search" page accessible from the navbar allows users to search for RIOs wit
 ![](images/search.png) <!--- import image -->
 
 ### Admin
-If the user signs in with an admin account, they will be able to edit their RIO's details from the admin page.
+If the user signs in with an admin account, they will be able to add their RIO's details from the admin page.
 
-![](images/editRIO.png) <!--- import image -->
+![](images/addRIO.png) <!--- import image -->
 
 ## Community Feedback
 We are interested in your experience using RIBows! If you would like, please take a couple of minutes to fill out the [RIBows Feedback Form](FeedbackForm). It contains only five short questions and will help us understand how to improve the application.
