@@ -46,12 +46,12 @@ Logged in users can view RIOs they've bookmarked by pressing "Saved" on the navb
 ### Search
 The "Search" page accessible from the navbar allows users to search for RIOs with keywords of their choice. Users also have the option to filter RIOs based on interests, date added, and more.
 
-![](images/search.png) <!--- import image -->
+![](images/search.png)
 
 ### Admin
 If the user signs in with an admin account, they will be able to add their RIO's details from the admin page.
 
-![](images/addRIO.png) <!--- import image -->
+![](images/addRio.png)
 
 ## Community Feedback
 We have also added a feedback page. If the user would like, they could take a couple of minutes to fill out the [RIBows Feedback Form](https://ri-bows.vercel.app/feedback). The form asks for the user's email address and a text area to include feedback/improvements for our app.
