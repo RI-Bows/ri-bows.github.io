@@ -84,15 +84,15 @@ git checkout -b issue-15
 ### 2. Environment variables and database
 
 Create a <code>.env</code> file in the project root with values like:
-<pre><code>DATABASE_URL="postgresql://USER:PASSWORD@HOST:PORT/DATABASE?sslmode=require" DATABASE_URL_UNPOOLED="postgresql://USER:PASSWORD@HOST:PORT/DATABASE?sslmode=require" 
+<pre><code>DATABASE_URL="postgresql://USER:PASSWORD@HOST:PORT/DATABASE?sslmode=require" 
+DATABASE_URL_UNPOOLED="postgresql://USER:PASSWORD@HOST:PORT/DATABASE?sslmode=require" 
 NEXTAUTH_URL="http://localhost:3000"
 NEXTAUTH_SECRET="some-random-secret-string"
 </code></pre>
     
 Install dependencies:
 <pre><code>npm install</code></pre>
-Run Prisma migrations:</p>
-    <pre><code>npx prisma migrate dev</code></pre>
+Run Prisma migrations: <pre><code>npx prisma migrate dev</code></pre>
 
 ### 3. Running the app locally
    <pre><code>npm run dev </code></pre>
@@ -100,31 +100,27 @@ Run Prisma migrations:</p>
 From there you can visit the landing page, sign in with a test account (e.g. <code>johnson@hawaii.edu</code>).Try search, bookmarks, and admin functionality.
 
 ### 4. Project structure 
-  -- src/app/page.tsx – Landing page
-  --src/app/search/page.tsx– Search RIOs
-  --src/app/trending/page.tsx –  Trending RIOs 
-  --src/app/bookmarks/page.tsx – Bookmarked RIOs
-  --src/app/addclub/page.tsx – Admin add-RIO page
-  --src/app/editClub/page.tsx – Club edit-RIO page
-  --src/app/feedback/page.tsx – Feedback form
-  --src/components/ – Shared React components
-  --src/lib/dbActions.ts– Database helper functions
-  --prisma/schema.prisma – Prisma data model
-  --styles/globals.css – Global theme and styling
-    
+<ul>
+  <li>src/app/page.tsx – Landing page</li>
+  <li>src/app/search/page.tsx– Search RIOs</li>
+  <li>src/app/trending/page.tsx –  Trending RIOs</li> 
+  <li>src/app/bookmarks/page.tsx – Bookmarked RIOs</li>
+  <li>src/app/addclub/page.tsx – Admin add-RIO page</li>
+  <li>src/app/editClub/page.tsx – Club edit-RIO page</li>
+  <li>src/app/feedback/page.tsx – Feedback form</li>
+  <li>src/components/ – Shared React components</li>
+  <li>src/lib/dbActions.ts– Database helper functions</li>
+  <li>prisma/schema.prisma – Prisma data model</li>
+  <li>styles/globals.css – Global theme and styling</li>
+</ul>
 
 ### 5. Making changes
-   <p>Adding a new page</p>
-    <ol>
-      <li>Create a new folder under <code>src/app</code> (e.g. <code>about</code>).</li>
-      <li>Add a <code>page.tsx</code> file and export a React component.</li>
-      <li>Optionally link to it from the navbar.</li>
-    </ol>
-    
+Adding a new page
+      - Create a new folder under <code>src/app</code> (e.g. <code>about</code>)
+      - Add a <code>page.tsx</code> file and export a React component
+
  ### 6. Linting and tests
- <p>Run ESLint to catch issues before committing:</p>
-    <pre><code>npm run lint
-</code></pre>
+Run ESLint to catch issues before committing: <pre><code>npm run lint</code></pre>
 
 ## Development History
 
