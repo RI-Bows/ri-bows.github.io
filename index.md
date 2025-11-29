@@ -92,7 +92,7 @@ NEXTAUTH_SECRET="some-random-secret-string"
     
 Install dependencies:
 <pre><code>npm install</code></pre>
-Run Prisma migrations: <pre><code>npx prisma migrate dev</code></pre>
+Run Prisma migrations:<code>npx prisma migrate dev</code>
 
 ### 3. Running the app locally
    <pre><code>npm run dev </code></pre>
@@ -116,11 +116,12 @@ From there you can visit the landing page, sign in with a test account (e.g. <co
 
 ### 5. Making changes
 Adding a new page
-      - Create a new folder under <code>src/app</code> (e.g. <code>about</code>)
-      - Add a <code>page.tsx</code> file and export a React component
+<br/>
+- Create a new folder under <code>src/app</code> (e.g. <code>about</code>)
+- - Add a <code>page.tsx</code> file and export a React component
 
- ### 6. Linting and tests
-Run ESLint to catch issues before committing: <pre><code>npm run lint</code></pre>
+### 6. Linting and tests
+Run ESLint to catch issues before committing: <code>npm run lint</code>
 
 ## Development History
 
