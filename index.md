@@ -118,7 +118,13 @@ From there you can visit the landing page, sign in with a test account (e.g. <co
 Adding a new page
 <br/>
 - Create a new folder under <code>src/app</code> (e.g. <code>about</code>)
-- - Add a <code>page.tsx</code> file and export a React component
+- Add a <code>page.tsx</code> file and export a React component
+  <br/>
+Updating the Data model
+- Edit <code>prisma/schema.prisma</code>
+- Run <code>npx prisma migrate dev -- name your_migration_name</code>
+- Update any queries and UI that depend on the changed model.
+
 
 ### 6. Linting and tests
 Run ESLint to catch issues before committing: <code>npm run lint</code>
