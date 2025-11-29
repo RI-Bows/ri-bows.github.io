@@ -40,7 +40,7 @@ On the sign up page, users are able to create their account and specify the type
 
 ### Edit Profile
 ![](images/editProfile.png)
-On this page, users are able to update their first and last names, change their club interests, and see a simple **preview** of how their profile information will appear.
+On this page, users are able to update their first and last names, change their club interests, and see a simple preview of how their profile information will appear.
 
 ### Bookmarked
 Logged in users can view RIOs they've bookmarked by pressing "Saved" on the navbar.
@@ -84,50 +84,36 @@ git checkout -b issue-15
 ### 2. Environment variables and database
 
 <p>Create a <code>.env</code> file in the project root with values like:</p>
-    <pre><code>DATABASE_URL="postgresql://USER:PASSWORD@HOST:PORT/DATABASE?sslmode=require"
+    <pre><code>
+      DATABASE_URL="postgresql://USER:PASSWORD@HOST:PORT/DATABASE?sslmode=require"
       DATABASE_URL_UNPOOLED="postgresql://USER:PASSWORD@HOST:PORT/DATABASE?sslmode=require"
       NEXTAUTH_URL="http://localhost:3000"
       NEXTAUTH_SECRET="some-random-secret-string"
     </code></pre>
     
-  <p>Install dependencies:</p>
-    <pre><code>npm install
-      
-</code></pre>
-    <p>Run Prisma migrations:</p>
-    <pre><code>npx prisma migrate dev
-    
-</code></pre>
-      <p>If a seed script is available:</p>
-    <pre><code>npm run seed
-
-</code></pre>
-
+Install dependencies:
+<pre><code>npm install</code></pre>
+Run Prisma migrations:</p>
+    <pre><code>npx prisma migrate dev</code></pre>
 
 ### 3. Running the app locally
    <pre><code>npm run dev </code></pre>
    <p>Then open <a href="http://localhost:3000">http://localhost:3000</a>.</p>
-    <p>From there you can:</p>
-    <ul>
-      <li>Visit the landing page.</li>
-      <li>Sign in with a test account (e.g. <code>johnson@hawaii.edu</code>).</li>
-      <li>Try search, bookmarks, and admin functionality.</li>
-    </ul>
+From there you can visit the landing page, sign in with a test account (e.g. <code>johnson@hawaii.edu</code>).Try search, bookmarks, and admin functionality.
 
 ### 4. Project structure 
-  <ul>
-      <li><code>src/app/page.tsx</code> – Landing page</li>
-      <li><code>src/app/search/page.tsx</code> – Search RIOs</li>
-      <li><code>src/app/trending/page.tsx</code> – Trending RIOs (if used)</li>
-      <li><code>src/app/bookmarks/page.tsx</code> – Bookmarked RIOs</li>
-      <li><code>src/app/addclub/page.tsx</code> – Admin add-RIO page</li>
-      <li><code>src/app/editClub/page.tsx</code> – Club edit-RIO page</li>
-      <li><code>src/app/feedback/page.tsx</code> – Feedback form</li>
-      <li><code>src/components/</code> – Shared React components</li>
-      <li><code>src/lib/dbActions.ts</code> – Database helper functions</li>
-      <li><code>prisma/schema.prisma</code> – Prisma data model</li>
-      <li><code>styles/globals.css</code> – Global theme and styling</li>
-    </ul>
+  -- src/app/page.tsx</code> – Landing page
+  --src/app/search/page.tsx</code> – Search RIOs
+  --src/app/trending/page.tsx</code> – Trending RIOs 
+  --src/app/bookmarks/page.tsx</code> – Bookmarked RIOs
+  --src/app/addclub/page.tsx</code> – Admin add-RIO page
+  --src/app/editClub/page.tsx</code> – Club edit-RIO page
+  --src/app/feedback/page.tsx</code> – Feedback form
+  --src/components/</code> – Shared React components
+  --src/lib/dbActions.ts</code> – Database helper functions
+  --prisma/schema.prisma</code> – Prisma data model
+  --styles/globals.css</code> – Global theme and styling
+    
 
 ### 5. Making changes
    <p>Adding a new page</p>
@@ -136,23 +122,7 @@ git checkout -b issue-15
       <li>Add a <code>page.tsx</code> file and export a React component.</li>
       <li>Optionally link to it from the navbar.</li>
     </ol>
-   <p><strong>Updating the data model</strong></p>
-    <ol>
-      <li>Edit <code>prisma/schema.prisma</code>.</li>
-      <li>Run <code>npx prisma migrate dev --name your_migration_name</code>.</li>
-      <li>Update any queries and UI that depend on the changed model.</li>
-    </ol>
-    <p><strong>Styling and theme</strong></p>
-    <p>
-      Edit <code>styles/globals.css</code> to adjust colors, fonts, layout, and
-      custom classes like:
-    </p>
-    <ul>
-      <li><code>.Hero-background-image</code></li>
-      <li><code>.trending-card</code></li>
-      <li><code>.rb-navbar</code> and <code>.rb-footer</code></li>
-    </ul>
-
+    
  ### 6. Linting and tests
  <p>Run ESLint to catch issues before committing:</p>
     <pre><code>npm run lint
