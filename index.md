@@ -83,13 +83,11 @@ git checkout -b issue-15
 
 ### 2. Environment variables and database
 
-<p>Create a <code>.env</code> file in the project root with values like:</p>
-    <pre><code>
-      DATABASE_URL="postgresql://USER:PASSWORD@HOST:PORT/DATABASE?sslmode=require"
-      DATABASE_URL_UNPOOLED="postgresql://USER:PASSWORD@HOST:PORT/DATABASE?sslmode=require"
-      NEXTAUTH_URL="http://localhost:3000"
-      NEXTAUTH_SECRET="some-random-secret-string"
-    </code></pre>
+Create a <code>.env</code> file in the project root with values like:
+<pre><code>DATABASE_URL="postgresql://USER:PASSWORD@HOST:PORT/DATABASE?sslmode=require" DATABASE_URL_UNPOOLED="postgresql://USER:PASSWORD@HOST:PORT/DATABASE?sslmode=require" 
+NEXTAUTH_URL="http://localhost:3000"
+NEXTAUTH_SECRET="some-random-secret-string"
+</code></pre>
     
 Install dependencies:
 <pre><code>npm install</code></pre>
@@ -102,17 +100,17 @@ Run Prisma migrations:</p>
 From there you can visit the landing page, sign in with a test account (e.g. <code>johnson@hawaii.edu</code>).Try search, bookmarks, and admin functionality.
 
 ### 4. Project structure 
-  -- src/app/page.tsx</code> – Landing page
-  --src/app/search/page.tsx</code> – Search RIOs
-  --src/app/trending/page.tsx</code> – Trending RIOs 
-  --src/app/bookmarks/page.tsx</code> – Bookmarked RIOs
-  --src/app/addclub/page.tsx</code> – Admin add-RIO page
-  --src/app/editClub/page.tsx</code> – Club edit-RIO page
-  --src/app/feedback/page.tsx</code> – Feedback form
-  --src/components/</code> – Shared React components
-  --src/lib/dbActions.ts</code> – Database helper functions
-  --prisma/schema.prisma</code> – Prisma data model
-  --styles/globals.css</code> – Global theme and styling
+  -- src/app/page.tsx – Landing page
+  --src/app/search/page.tsx– Search RIOs
+  --src/app/trending/page.tsx –  Trending RIOs 
+  --src/app/bookmarks/page.tsx – Bookmarked RIOs
+  --src/app/addclub/page.tsx – Admin add-RIO page
+  --src/app/editClub/page.tsx – Club edit-RIO page
+  --src/app/feedback/page.tsx – Feedback form
+  --src/components/ – Shared React components
+  --src/lib/dbActions.ts– Database helper functions
+  --prisma/schema.prisma – Prisma data model
+  --styles/globals.css – Global theme and styling
     
 
 ### 5. Making changes
