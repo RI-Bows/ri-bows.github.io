@@ -148,6 +148,8 @@ Milestone 2 is managed using [RIBows GitHub Project Board M2](https://github.com
 ### Milestone 3:
 The goal of Milestone 3 was improve our sysytem's functionality from M2, incorporate real data in the system, find at least 5 UH community members to try out the system and provide feedback, and implement acceptance testing.
 
+Milestone 3 is managed using [RIBows GitHub Project Board M3](https://github.com/orgs/RI-Bows/projects/11)
+
 ![](images/M3.png)
 
 ## Team
