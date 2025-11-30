@@ -1,4 +1,4 @@
-<img width="2880" height="1556" alt="image" src="https://github.com/user-attachments/assets/ec6d0859-3cda-48f8-8da2-1174ac1da487" /># RIBows
+<img width="2880" height="1556" alt="image" src="https://github.com/user-attachments/assets/ec6d0859-3cda-48f8-8da2-1174ac1da487" /> #RIBows
 
 ## Table of Contents
 - [Overview](#overview)
@@ -144,6 +144,11 @@ The goal of Milestone 2 was to finish up the mockup pages, connect the spreadshe
 Milestone 2 is managed using [RIBows GitHub Project Board M2](https://github.com/orgs/RI-Bows/projects/6)
 
 ![](images/M2.png)
+
+### Milestone 3:
+The goal of Milestone 3 was improve our sysytem's functionality from M2, incorporate real data in the system, find at least 5 UH community members to try out the system and provide feedback, and implement acceptance testing.
+
+![](images/M3.png)
 
 ## Team
 RIBows is designed, implemented, and maintained by UHM students [Gerric Abe](https://g3rr1c.github.io/), [Tyler Jordan Acasio](https://tjlacasio.github.io/), [Charles Brown III](https://cbxiii.github.io/), [Ethan Chiu](https://ethnchiu.github.io/), and [Kate Hamada](https://katehamada.github.io/)
