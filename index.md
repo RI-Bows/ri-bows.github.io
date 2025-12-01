@@ -1,12 +1,11 @@
-<img width="2880" height="1556" alt="image" src="https://github.com/user-attachments/assets/ec6d0859-3cda-48f8-8da2-1174ac1da487" /> #RIBows
+### RIBows
 
 ## Table of Contents
 - [Overview](#overview)
-- [Admin Features](#admin-features)
 - [Deployment](#deployment)
 - [User Guide](#user-guide)
-- [Pages](#pages)
 - [Community Feedback](#community-feedback)
+- [Continuous Integration](#continuous-integration)
 - [Developer Guide](#developer-guide)
 - [Development History](#development-history)
 - [Team](#team)
@@ -14,22 +13,18 @@
 ## Overview
 RIBows is a website built by University of Hawaii at Manoa (UHM) students, for UHM students, to easily search for, discover, and join Registered Independent Organizations (RIOs). RIBows gives users the flexibility to browse trending RIOs or search for specific RIOs based on interests or keywords. If a user sees an RIO that interests them, they can use the bookmarking feature to save the RIO for easy future reference. Once a user finds an RIO they want to join, simply clicking the "apply" button allows them to send an application to the RIO admin.
 
-## Admin Features
-Via an admin account, RIO admins can edit their RIO, allowing them to customize its image, description, and more. 
-
 ## Deployment
 The RIBows application was deployed on Vercel through this [link](https://ri-bows.vercel.app/)
 
 ## User Guide
 This section provides a walkthrough of the RIBows user interface and its capabilities.
 
-## Pages
-### Landing
+### Landing Page
 The landing page is presented to users when they visit the top-level URL of the site. This page explains basic usage of the website and displays currently trending RIOs.
 
 ![](images/landingPage.png)
 
-### Sign In / Sign Up
+### Sign In / Sign Up Pages
 Users can access the sign in page via the "Sign In" button on the navbar. There, the user has the option to either sign in or create a new account.
 
 ![](images/signIn.png)
@@ -38,24 +33,37 @@ On the sign up page, users are able to create their account and specify the type
 
 ![](images/signUp.png)
 
-### Edit Profile
+### Edit Profile Page
 ![](images/editProfile.png)
 On this page, users are able to update their first and last names, change their club interests, and see a simple preview of how their profile information will appear.
 
-### Bookmarked
+### Bookmark Page
 Logged in users can view RIOs they've bookmarked by pressing "Saved" on the navbar.
 
 ![](images/bookmarks.png)
 
-### Search
+### Search Page
 The "Search" page accessible from the navbar allows users to search for RIOs with keywords of their choice. Users also have the option to filter RIOs based on interests, date added, and more.
 
 ![](images/search.png)
 
-### Admin
-If the user signs in with an admin account, they will be able to add their RIO's details from the admin page.
+### About Us Page
+There's also an about us page that tells you information about the creators of RIBows.
 
-![](images/addRio.png)
+![](images/aboutUs.png)
+
+### Edit RIO Page
+If the user is logged in a club account they will have access to the information that their RIO will display.
+
+![](images/editRIO.png)
+
+### Admin  Privileges
+As an admin you can add RIO's to the database:
+
+![](images/addRIO.png)
+
+As well as edit any RIO allowing them to customize its image, description, and more by using the admin search tab and then clicking on the edit button. (currently not done)
+![](images/editRIOAdmin.png)
 
 ## Community Feedback
 We have also added a feedback page. If the user would like, they could take a couple of minutes to fill out the [RIBows Feedback Form](https://ri-bows.vercel.app/feedback). The form asks for the user's email address and a text area to include feedback/improvements for our app.
@@ -64,7 +72,6 @@ We have also added a feedback page. If the user would like, they could take a co
 
 ## Developer Guide
 This section explains how to download, install, run, and modify the RIBows system.
-
 
 ### Prerequisites
 Before you begin, make sure you have:
@@ -129,6 +136,17 @@ Updating the Data model
 ### 6. Linting and tests
 Run ESLint to catch issues before committing: <code>npm run lint</code>
 
+## Continuous Integration
+
+CI badges:
+[![ESLint](https://github.com/RI-Bows/RIBows/actions/workflows/eslint.yml/badge.svg)](https://github.com/RI-Bows/RIBows/actions/workflows/eslint.yml)
+[![Playwright](https://github.com/RI-Bows/RIBows/actions/workflows/playwright.yml/badge.svg)](https://github.com/RI-Bows/RIBows/actions/workflows/playwright.yml)
+
+BowFolios uses [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions) to automatically run ESLint and Playwright Tests each time a commit is made to the default branch.  You can see the results of all recent "workflows" at [https://github.com/RI-Bows/RIBows/actions](https://github.com/RI-Bows/RIBows/actions).
+
+The workflow definition files are quite simple and is located at
+[.github/workflows](https://github.com/RI-Bows/RIBows/tree/main/.github/workflows).
+
 ## Development History
 
 ### Milestone 1: Mockup development
@@ -146,7 +164,7 @@ Milestone 2 is managed using [RIBows GitHub Project Board M2](https://github.com
 ![](images/M2.png)
 
 ### Milestone 3:
-The goal of Milestone 3 was improve our sysytem's functionality from M2, incorporate real data in the system, find at least 5 UH community members to try out the system and provide feedback, and implement acceptance testing.
+The goal of Milestone 3 was to improve our system's functionality from M2, incorporate real data in the system, find at least 5 UH community members to try out the system and provide feedback, and implement acceptance testing.
 
 Milestone 3 is managed using [RIBows GitHub Project Board M3](https://github.com/orgs/RI-Bows/projects/11)
 
