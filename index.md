@@ -57,7 +57,7 @@ If the user is logged in a club account they will have access to the information
 
 ![](images/editRIO.png)
 
-### Admin Priviliges
+### Admin  Privileges
 As an admin you can add RIO's to the database:
 
 ![](images/addRIO.png)
@@ -164,7 +164,7 @@ Milestone 2 is managed using [RIBows GitHub Project Board M2](https://github.com
 ![](images/M2.png)
 
 ### Milestone 3:
-The goal of Milestone 3 was improve our sysytem's functionality from M2, incorporate real data in the system, find at least 5 UH community members to try out the system and provide feedback, and implement acceptance testing.
+The goal of Milestone 3 was to improve our system's functionality from M2, incorporate real data in the system, find at least 5 UH community members to try out the system and provide feedback, and implement acceptance testing.
 
 Milestone 3 is managed using [RIBows GitHub Project Board M3](https://github.com/orgs/RI-Bows/projects/11)
 
