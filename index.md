@@ -65,10 +65,13 @@ As an admin you can add RIO's to the database:
 As well as edit any RIO allowing them to customize its image, description, and more by using the admin search tab and then clicking on the edit button. (currently not done)
 ![](images/editRIOAdmin.png)
 
-## Community Feedback
+### Feedback Page
 We have also added a feedback page. If the user would like, they could take a couple of minutes to fill out the [RIBows Feedback Form](https://ri-bows.vercel.app/feedback). The form asks for the user's email address and a text area to include feedback/improvements for our app.
 
 ![](images/feedback.png)
+
+## Community Feedback
+These were the [responses](https://docs.google.com/spreadsheets/d/1WJVJc5hPyHeSnU0xMmSv9FGXRyTyEozgusYMW37m28s/edit?usp=sharing) we have so far from our feedback form. It seemed like even though many undergraduate UH students know about RIO's they still were able to learn something new away from our website. 
 
 ## Developer Guide
 This section explains how to download, install, run, and modify the RIBows system.
@@ -142,7 +145,7 @@ CI badges:
 [![ESLint](https://github.com/RI-Bows/RIBows/actions/workflows/eslint.yml/badge.svg)](https://github.com/RI-Bows/RIBows/actions/workflows/eslint.yml)
 [![Playwright](https://github.com/RI-Bows/RIBows/actions/workflows/playwright.yml/badge.svg)](https://github.com/RI-Bows/RIBows/actions/workflows/playwright.yml)
 
-BowFolios uses [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions) to automatically run ESLint and Playwright Tests each time a commit is made to the default branch.  You can see the results of all recent "workflows" at [https://github.com/RI-Bows/RIBows/actions](https://github.com/RI-Bows/RIBows/actions).
+RIBows uses [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions) to automatically run ESLint and Playwright Tests each time a commit is made to the default branch.  You can see the results of all recent "workflows" at [https://github.com/RI-Bows/RIBows/actions](https://github.com/RI-Bows/RIBows/actions).
 
 The workflow definition files are quite simple and is located at
 [.github/workflows](https://github.com/RI-Bows/RIBows/tree/main/.github/workflows).
