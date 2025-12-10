@@ -33,45 +33,63 @@ On the sign up page, users are able to create their account and specify the type
 
 ![](images/signUp.png)
 
-### Edit Profile Page
-![](images/editProfile.png)
-On this page, users are able to update their first and last names, change their club interests, and see a simple preview of how their profile information will appear.
+### Search Page
+The "Search" page accessible from the navbar allows users to search for RIOs with keywords of their choice. Users also have the option to filter RIOs based on interests, date added, and more. There they can bookmark as well if they are signed in.
+
+Not Signed In:
+![](images/search.png)
+
+Signed In:
+![](images/searchLog.png)
 
 ### Bookmark Page
-Logged in users can view RIOs they've bookmarked by pressing "Saved" on the navbar.
+Only logged in users can view RIOs they've bookmarked by pressing "Bookmark" on the navbar and can save them with the bookmark button.
 
 ![](images/bookmarks.png)
 
-### Search Page
-The "Search" page accessible from the navbar allows users to search for RIOs with keywords of their choice. Users also have the option to filter RIOs based on interests, date added, and more.
-
-![](images/search.png)
-
 ### About Us Page
-There's also an about us page that tells you information about the creators of RIBows.
+There's also an about us page that tells you information about the creators of RIBows, which also has a link at the bottom to our feedback page.
 
 ![](images/aboutUs.png)
-
-### Edit RIO Page
-If the user is logged in a club account they will have access to the information that their RIO will display.
-
-![](images/editRIO.png)
-
-### Admin  Privileges
-As an admin you can add RIO's to the database:
-
-![](images/addRIO.png)
-
-As well as edit any RIO allowing them to customize its image, description, and more by using the admin search tab and then clicking on the edit button. (currently not done)
-![](images/editRIOAdmin.png)
 
 ### Feedback Page
 We have also added a feedback page. If the user would like, they could take a couple of minutes to fill out the [RIBows Feedback Form](https://ri-bows.vercel.app/feedback). The form asks for the user's email address and a text area to include feedback/improvements for our app.
 
 ![](images/feedback.png)
 
+### Edit Profile Page
+If a user wants to, they are able to edit their profile and update their first and last names, email, or change their RIO interests
+
+![](images/editProfile.png)
+
+### RIO Account Privilages
+If the user is logged in a RIO account they will have access to the information that their RIO will display, so that they don't have to go through admin to make changes.
+
+![](images/editRIO.png)
+
+### Admin  Privileges
+As an admin there is an Admin Search tab which allows you edit and delete any RIO. The edit page looks exactly the same as a RIO's account's except the admin can edit any of them.
+
+![](images/adminSearch.png)
+
+You can delete them when you click on the RIO to open up this card:
+
+![](images/searchCard.png)
+
+Where if you choose to delete an RIO it will take you to a confirmation page:
+
+![](images/delete.png)
+
+You can add RIO's to the database:
+
+![](images/addRIO.png)
+
+If not logged in as admin, an error page will appear:
+
+![](images/unable.png)
+
 ## Community Feedback
-These were the [responses](https://docs.google.com/spreadsheets/d/1WJVJc5hPyHeSnU0xMmSv9FGXRyTyEozgusYMW37m28s/edit?usp=sharing) we have so far from our feedback form. It seemed like even though many undergraduate UH students know about RIO's they still were able to learn something new away from our website. 
+These were the [responses](https://docs.google.com/spreadsheets/d/1WJVJc5hPyHeSnU0xMmSv9FGXRyTyEozgusYMW37m28s/edit?usp=sharing) we have so far from our feedback form. It seemed like even though many undergraduate UH students know about RIO's they still were able to learn something new away from our website. Most of the people found it easy to navigate and find an RIO they find interesting. The only things we should change would be to create a better format for mobile and add more images. If this was actually implemented the RIO's themselves would all add their own so in practice there would be images. Another thing that was suggested was to include links to the email or other contact information and interest form. Overall though most would use RIBows in the future because it's much better than that spreadsheet.
 
 ## Developer Guide
 This section explains how to download, install, run, and modify the RIBows system.
@@ -112,12 +130,15 @@ From there you can visit the landing page, sign in with a test account (e.g. <co
 ### 4. Project structure 
 <ul>
   <li>src/app/page.tsx – Landing page</li>
-  <li>src/app/search/page.tsx– Search RIOs</li>
-  <li>src/app/trending/page.tsx –  Trending RIOs</li> 
+  <li>src/app/about/page.tsx – About Us page</li>
+  <li>src/app/addRio/page.tsx – Admin Add RIO page</li>
   <li>src/app/bookmarks/page.tsx – Bookmarked RIOs</li>
-  <li>src/app/addclub/page.tsx – Admin add-RIO page</li>
-  <li>src/app/editClub/page.tsx – Club edit-RIO page</li>
+  <li>src/app/deleteRio/page.tsx – Admin Delete RIO Confirmation page</li>
+  <li>src/app/editProfile/page.tsx – Edit Profile page</li>
+  <li>src/app/editRio/page.tsx – Edit RIO page</li>
   <li>src/app/feedback/page.tsx – Feedback form</li>
+  <li>src/app/help/page.tsx – Help form</li>
+  <li>src/app/search/page.tsx– Search RIOs</li> 
   <li>src/components/ – Shared React components</li>
   <li>src/lib/dbActions.ts– Database helper functions</li>
   <li>prisma/schema.prisma – Prisma data model</li>
